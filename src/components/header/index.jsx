@@ -8,22 +8,22 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__left">
-        <Link to="/about" className="header__link">
+        <Link to="/" className="header__link">
           About
         </Link>
 
-        <Link to="/store" className="header__link">
+        <Link to="/" className="header__link">
           Store
         </Link>
       </div>
 
       <div className="header__right">
         <div className="header__right-left">
-          <Link to="/gmail" className="header__link">
+          <Link to="/" className="header__link">
             Gmail
           </Link>
 
-          <Link to="/images" className="header__link">
+          <Link to="/" className="header__link">
             Images
           </Link>
         </div>

@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import Header from "../../components/header";
 import SearchBar from "../../components/search-bar";
 import ButtonsGroup from "../../components/buttons-group";
 import "./index.css";
 
-const Home = () => {
-  const history = useNavigate();
+const Home = (props) => {
   const [input, setInput] = useState("");
 
   const handleSubmit = (e) => {
@@ -15,7 +13,7 @@ const Home = () => {
     const value = input.trim();
     if (value) {
       setInput("");
-      history(`/search/${value}`);
+      window.location.replace(`https://www.google.com/search?q=${value}`);
     }
   };
 

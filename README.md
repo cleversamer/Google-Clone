@@ -16,6 +16,7 @@ Google clone with React & Firebase
 
 - React
 - React DOM
+- React Router DOM
 - Firebase
 
 ### Installing

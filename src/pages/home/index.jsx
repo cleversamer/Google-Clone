@@ -37,7 +37,7 @@ const Home = (props) => {
           Made With ❤️ By{" "}
           <a
             className="footer__link"
-            href="https://twitter.com/ssadawi"
+            href="https://twitter.com/ssadawi__"
             target="__blank"
           >
             Samer A.⚡

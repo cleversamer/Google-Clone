@@ -19,16 +19,31 @@ const Home = (props) => {
 
   return (
     <div className="home">
-      <Header />
+      <div className="home__content">
+        <Header />
 
-      <div className="home__body">
-        <img className="home__body-image" src="img/logo.png" alt="Google" />
+        <div className="home__body">
+          <img className="home__body-image" src="img/logo.png" alt="Google" />
 
-        <form className="home__input-container" onSubmit={handleSubmit}>
-          <SearchBar value={input} onChange={setInput} />
-          <ButtonsGroup />
-        </form>
+          <form className="home__input-container" onSubmit={handleSubmit}>
+            <SearchBar value={input} onChange={setInput} />
+            <ButtonsGroup />
+          </form>
+        </div>
       </div>
+
+      <footer className="footer">
+        <p className="footer__message">
+          Made With ❤️ By{" "}
+          <a
+            className="footer__link"
+            href="https://twitter.com/ssadawi"
+            target="__blank"
+          >
+            Samer A.⚡
+          </a>
+        </p>
+      </footer>
     </div>
   );
 };

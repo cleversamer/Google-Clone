@@ -1,7 +1,13 @@
 .home {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
+}
+
+.home__content {
+  display: flex;
+  flex-direction: column;
 }
 
 .home__body {
@@ -14,4 +20,26 @@
 .home__body-image {
   object-fit: contain;
   height: 85px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+
+.footer__message {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+
+.footer__link {
+  margin-left: 4px;
+  text-decoration: underline;
+  color: #e81224;
+  font-size: 16px;
+  font-weight: 700;
 }

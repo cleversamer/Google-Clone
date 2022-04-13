@@ -4,7 +4,7 @@ Google clone with React & Firebase
 
 ## 🔴 Live Demo
 
-Not live yet...
+[Click here...](https://samer-gooogle.firebaseapp.com/)
 
 ## Description
 
@@ -17,6 +17,8 @@ Google clone with React & Firebase
 - React
 - React DOM
 - React Router DOM
+- MaterialUI Core
+- MaterialUI Icons
 - Firebase
 
 ### Installing

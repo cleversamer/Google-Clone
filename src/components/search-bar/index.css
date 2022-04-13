@@ -27,10 +27,10 @@
 @media screen and (max-width: 380px) {
   .search-bar {
     padding: 5px 10px;
-    width: 90vw;
+    width: 85vw;
   }
 
   .search-bar__input {
-    padding: 5px 10px;
+    padding: 5px;
   }
 }

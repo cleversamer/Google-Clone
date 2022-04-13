@@ -43,3 +43,15 @@
   font-size: 16px;
   font-weight: 700;
 }
+
+@media screen and (max-width: 380px) {
+  .home__body-image {
+    height: 75px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home__body-image {
+    height: 65px;
+  }
+}

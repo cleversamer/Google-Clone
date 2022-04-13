@@ -47,3 +47,13 @@
     justify-content: space-between;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .header__right {
+    justify-content: flex-end;
+  }
+
+  .header__right-left {
+    display: none;
+  }
+}

@@ -32,3 +32,9 @@
 .buttons__btn:active {
   transform: scale(0.99);
 }
+
+@media screen and (max-width: 320px) {
+  .buttons__btn {
+    font-size: 11px;
+  }
+}

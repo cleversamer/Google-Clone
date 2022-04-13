@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/home";
-import NotFound from "./components/common/not-found";
+import NotFound from "./components/not-found";
 
 const App = () => {
   return (
